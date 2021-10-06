@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import ViewFeed from '../views/feed/ViewFeed.vue'
+import CreateFeed from '../views/feed/CreateFeed.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/feed',
     name: 'ViewFeed',
     component: ViewFeed
+  },
+  {
+    path: '/feed/create',
+    name: 'CreateFeed',
+    component: CreateFeed
   }
 ]
 
