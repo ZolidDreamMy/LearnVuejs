@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 import ViewFeed from '../views/feed/ViewFeed.vue'
 import CreateFeed from '../views/feed/CreateFeed.vue'
 import UpdateFeed from '../views/feed/UpdateFeed.vue'
+import DetailFeed from '../views/feed/DetailFeed.vue'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,11 @@ const routes = [
     path: '/feed/update/:feedId',
     name: 'UpdateFeed',
     component: UpdateFeed
+  },
+  {
+    path: '/feed/detail',
+    name: 'DetailFeed',
+    component: DetailFeed
   }
 ]
 
