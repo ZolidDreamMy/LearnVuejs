@@ -1,8 +1,10 @@
+/* eslint-disable no-unused-vars */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import ViewFeed from '../views/feed/ViewFeed.vue'
 import CreateFeed from '../views/feed/CreateFeed.vue'
+import UpdateFeed from '../views/feed/UpdateFeed.vue'
 
 Vue.use(VueRouter)
 
@@ -29,6 +31,11 @@ const routes = [
     path: '/feed/create',
     name: 'CreateFeed',
     component: CreateFeed
+  },
+  {
+    path: '/feed/update/:feedId',
+    name: 'UpdateFeed',
+    component: UpdateFeed
   }
 ]
 
