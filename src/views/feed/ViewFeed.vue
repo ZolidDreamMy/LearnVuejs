@@ -49,7 +49,7 @@ export default {
           _cellVariants: { age: "info", first_name: "warning" },
         }
       ]
-    }
+    } 
   },
   computed: {
     rows() {
