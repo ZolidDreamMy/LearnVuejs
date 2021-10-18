@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const API_BASE_API = "http://35.247.158.49:30749/mfecinternship/";
+// const API_BASE_API = "https://api.coindesk.com";
 const TIMEOUT = 120000;
 const HEADERS = {
     "Content-Type": "application/json"
